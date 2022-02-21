@@ -1,0 +1,69 @@
+.title{
+    text-align: center;
+    font-family: 'Akaya Telivigala', serif;
+    font-size: 45px;
+    margin: 20px;
+}
+
+.container-title{
+    border-bottom: 2px solid gainsboro;
+}
+
+#main-container{
+    background-color: whitesmoke;
+    overflow:hidden;
+}
+
+#profile-image-container{
+    width: 20%;
+    float: left;
+}
+
+#profile-image{
+    border-radius: 50%;
+    margin: 100px;
+    width: 50%;
+}
+
+#bio{
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 100px;
+    float: left;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bollino{
+    width: 20px
+}
+
+.stats{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.biografia{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin-left: 5%;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+  }
+
+  .item1 {
+    grid-row: 1 / 1;
+  }
+  .item2 {
+    grid-row: 2 / 1;
+  }
